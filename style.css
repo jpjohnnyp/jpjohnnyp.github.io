@@ -1,0 +1,61 @@
+
+/*sitewide*/
+
+/*pg1*/
+.pg1{
+ background-image: url("image/bg1.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size:100%;
+}
+
+.post{ /*all "posts" of experiences*/
+  background: rgba(50, 50, 50, 0.98);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+img{
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.navbar {
+  padding-top:15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+body {
+  font: 20px "Montserrat", sans-serif;
+  line-height: 1.5;
+
+}
+
+p {font-size: 16px;}
+
+.content {
+
+}
+
+.bg-1 {
+  background-color:#1abc9c;
+  color: #ffffff;
+}
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+
+  .container{
+    padding-top: 40px;
+    padding-bottom:40px;
+  }
