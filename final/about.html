@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+  <style media="screen">
+
+
+
+  </style>
+  <script>
+  var image_1 = new Image(100,100);
+  image_1.src = "vis1.jpg";
+  var image_1_over = new Image(100,100);
+  image_1_over.src = "vis2.jpg";
+
+  var image_2 = new Image(100,100);
+  image_2.src = "fig1.jpg";
+  var image_2_over = new Image(100,100);
+  image_2_over.src = "fig2.jpg";
+  </script>
+  <title>Ex4 - Open Source Report</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+              Info Tech
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="ITintro.html">Info Tech - Intro</a>
+              <a class="dropdown-item" href="ITOpenSource.html">Info Tech - Open Source</a>
+              <a class="dropdown-item" href="ITtools.html">Info Tech - Tools</a>
+            </div>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">
+              Interests
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="intreIntro.html">Interest: Intro</a>
+              <a class="dropdown-item" href="intreVideo.html">Interest: Video</a>
+              <a class="dropdown-item" href="intreScreen.html">Interest: Screencast</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+
+    <h1>About me</h1>
+      <figure>
+
+      </figure>
+
+      <img src="me.jpg" width="200" class=center alt="me">
+
+      <h2>John Palmer III</h2>
+        <p> Hi, I'm John, I graduated with a Bachelor of Arts in Information Technology. When I'm not doing homework or playing a lot of videogames, one hobby I've always wanted to get better with is drawing, which is why I also minored in visual art. Here's some pictures form my classes:
+      </p>
+
+      <img class=center src="v1.jpg" name="img1" width="600"  alt="drawing" onmouseover="document.img1.src = image_1_over.src"
+      onmouseout="document.img1.src = image_1.src">
+
+      <img class=center src="file1.jpg" name="img2" width="400" alt="drawing" onmouseover="document.img2.src = image_2_over.src"
+      onmouseout="document.img2.src = image_2.src">
+
+      <iframe class=center width="500" src="https://youtu.be/YkIP4Ab1uRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+  </div>
+</body>
+</html>
